@@ -3,7 +3,7 @@ Zomato Restaurant Data Analysis
 
 This project provides a basic exploratory data analysis (EDA) of Zomato restaurant data, using Python libraries such as Pandas, NumPy, Matplotlib, and Seaborn. The analysis includes understanding restaurant types, votes, ratings, online ordering trends, and more.
 
-Dataset
+# Dataset
 
 The dataset used is Zomato-data-.csv, containing information about restaurants including:
 
