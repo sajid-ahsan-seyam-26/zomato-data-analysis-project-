@@ -23,7 +23,7 @@ listed_in(type): Type of cuisine
 
 Dataset size: 148 rows × 7 columns
 
-Libraries Used
+#Libraries Used
 
 Pandas: For data manipulation
 
@@ -33,9 +33,8 @@ Matplotlib: For basic plotting
 
 Seaborn: For advanced visualization
 
-Analysis Performed
-
-Data Overview
+# Analysis Performed
+1. Data Overview
 
 Displayed first few rows of the dataset using head()
 
@@ -43,34 +42,33 @@ Checked data types and non-null counts with info()
 
 Verified missing values using isnull().sum()
 
-Restaurant Type Analysis
+2. Restaurant Type Analysis
 
 Count of restaurants by type using sns.countplot()
 
 Total votes by restaurant type using groupby() and plot()
 
-Most Voted Restaurant
+3. Most Voted Restaurant
 
-Identified the restaurant with maximum votes
+Identified the restaurant with maximum votes:
 
-Empire Restaurant
+#Empire Restaurant
 
+4. Online Order Availability
 
-Online Order Availability
+Count of restaurants offering online orders using countplot()
 
-Count of restaurants offering online orders using countplot
-
-Ratings Analysis
+5. Ratings Analysis
 
 Distribution of ratings visualized using a histogram
 
 Comparison of ratings for online vs offline orders using a boxplot
 
-Order Mode Preference by Restaurant Type
+6. Order Mode Preference by Restaurant Type
 
 Created a pivot table for online order availability vs restaurant type
 
-Visualized with a heatmap
+# Visualized with a heatmap
 
 Visualizations
 
